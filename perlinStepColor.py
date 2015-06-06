@@ -8,7 +8,6 @@ res = rs.GetReal("set resolution", 1)
 pScale = rs.GetReal("set noiseScale", .01)
 taper = rs.GetReal("set taper",.7)
 gens = rs.GetReal("set generations", 5)
-
 sn = perlin.SimplexNoise()
 
 
